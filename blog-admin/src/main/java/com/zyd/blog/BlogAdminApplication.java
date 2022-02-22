@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @version 1.0
  * @website https://docs.zhyd.me
  * @date 2018/4/24 14:37
- * @since 1.0
+ * @since 1.0.0
  */
 @SpringBootApplication
 @ServletComponentScan
