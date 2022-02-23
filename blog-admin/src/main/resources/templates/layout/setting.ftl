@@ -62,6 +62,7 @@
                         <i class="fa fa-desktop"> 访问前台</i>
                     </a>
                 </li>
+<#--                删除捐赠博主-->
 <#--                <li>-->
 <#--                    <a class="pointer" data-toggle="modal" data-target="#reward">-->
 <#--                        <i class="fa fa-cny"> 捐赠博主</i>-->
