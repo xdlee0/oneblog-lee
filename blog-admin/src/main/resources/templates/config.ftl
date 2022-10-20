@@ -389,8 +389,8 @@
                                         <div class="col-md-6 col-sm-6 col-xs-12 fixed-radio-checkbox">
                                             <select name="articleEditor" id="articleEditor" class="form-control">
                                                 <option value="md">Markdown 编辑器</option>
-                                                <option value="we">WangEditor 编辑器</option>
-                                                <option value="tiny">TinyMCE 编辑器</option>
+<#--                                                <option value="we">WangEditor 编辑器</option>-->
+<#--                                                <option value="tiny">TinyMCE 编辑器</option>-->
                                             </select>
                                         </div>
                                     </div>

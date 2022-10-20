@@ -55,6 +55,7 @@ public class SysConfigServiceImpl implements SysConfigService {
     @Override
     @RedisCache(enable = false)
     public Map<String, Object> getConfigs() {
+        //此处的SelectAll 通过sysConfig与数据的表名进行联系
         List<SysConfig> list = sysConfigMapper.selectAll();
         if (CollectionUtils.isEmpty(list)) {
             return null;

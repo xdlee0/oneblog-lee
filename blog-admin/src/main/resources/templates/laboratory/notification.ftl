@@ -151,20 +151,6 @@
                                         <div class="ready">
                                             <p class="info">......</p>
                                         </div>
-                                        <#--<div class="message">
-                                            <img src="/assets/images/user.png">
-                                            <p class="info">Hello there!<br>Good Morning</p>
-                                        </div>
-                                        <div class="message me">
-                                            <img src="/assets/images/loading.gif">
-                                            <p class="info">Hi<br>Good Morning</p>
-                                        </div>
-                                        <div class="message"><img src="/assets/images/user.png">
-                                            <p class="info">How are you?</p>
-                                        </div>
-                                        <div class="message me"><img src="/assets/images/loading.gif">
-                                            <p class="info">I'm Fine.</p>
-                                        </div>-->
                                     </div>
                                     <div class="sender">
                                         <input type="text" name="msg" id="msg" placeholder="Send Message">
@@ -187,7 +173,7 @@
             var msg = $("#msg").val();
             $.post("/api/notice", {msg : msg}, function (json) {
                 if (json.status == 200) {
-                    $messages.append('<div class="message me"><img src="/assets/images/loading.gif"><p class="info">' + msg + '</p></div>');
+                    $messages.append('<div class="message me"><img src="/assets/images/admin-user.jpg"><p class="info">' + msg + '</p></div>');
                 } else {
                     if (json.message) {
                         $.alert.error(json.message);

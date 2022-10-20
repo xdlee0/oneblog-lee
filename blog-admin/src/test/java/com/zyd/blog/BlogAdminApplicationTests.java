@@ -20,7 +20,7 @@ public class BlogAdminApplicationTests {
     @Test
     public void uploadFile() {
         FileUploader uploader = new GlobalFileUploader();
-        File file = new File("C:\\Users\\yadon\\Desktop\\新建文件夹\\web-index-pc.png");
+        File file = new File("E:\\Pictures\\123.jpg");
         VirtualFile virtualFile = uploader.upload(file, FileUploadType.SIMPLE.getPath(), true);
         System.out.println(virtualFile);
     }

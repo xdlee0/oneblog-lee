@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcdn.net/ajax/libs/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+    <link href="/assets/css/nprogress.min.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/toastr.js/2.0.3/css/toastr.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/icheck@1.0.2/skins/square/green.min.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                 <@shiro.user>
                 <div class="profile clearfix">
                     <div class="profile_pic">
-                        <img src="/assets/images/loading.gif" alt="..." class="img-circle profile_img">
+                        <img src="/assets/images/admin-user.jpg" alt="..." class="img-circle profile_img">
                     </div>
                     <div class="profile_info">
                         <span id="hello_msg">&nbsp;</span>
